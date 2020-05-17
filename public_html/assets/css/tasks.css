@@ -1,0 +1,18 @@
+body {
+    /* Override bootstrap properties */
+    border: 0 !important;
+}
+
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.task {
+    padding: 15px;
+}
+
+.pages {
+    padding: 5px;
+}
+
