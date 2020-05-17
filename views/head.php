@@ -4,6 +4,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Задачи</title>
 
-    <link rel="stylesheet" href="assets/css/bootstrap.css" />
-    <link rel="stylesheet" href="assets/css/tasks.css" />
+    <link rel="stylesheet" href="<?='http://'.$_SERVER['SERVER_NAME'];?>/assets/css/bootstrap.css" />
+    <link rel="stylesheet" href="<?='http://'.$_SERVER['SERVER_NAME'];?>/assets/css/tasks.css" />
 </head>
