@@ -64,9 +64,6 @@ $(document).ready(function() {
         if(direction) {direct = Number(direction)}
         else direct = 1;
 
-        if($.cookie('name_sort')) {name_sort = Number($.cookie('name_sort'))}
-        else name_sort = -1;
-
         $(".task").sort(function (a, b) {
 
             let val_a = $(a).find("[sort='"+ name +"']").attr('state');
