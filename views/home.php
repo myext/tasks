@@ -20,9 +20,7 @@
             <p sort="email" state="<?=htmlspecialchars($task['email']);?>" class="text-truncate"><?=htmlspecialchars($task['email']);?></p>
         </div>
         <div class="col-sm-5">
-            <textarea <?php if(!\Session\Session::isAuth()) echo 'readonly' ?> class="form-control text-left" rows="2" name="text">
-                <?=htmlspecialchars($task['text']) ?>
-            </textarea>
+            <textarea <?php if(!\Session\Session::isAuth()) echo 'readonly' ?> class="form-control text-left" rows="2" name="text"><?=htmlspecialchars($task['text']) ?></textarea>
         </div>
         <div class="col-sm-2">
             <div class="row form-check">
